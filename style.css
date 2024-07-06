@@ -223,7 +223,7 @@ p.second {
 /* Media Queries*/
 @media only screen and (max-width: 768px) {
     header .container {
-        flex-direction: column;
+        flex-direction:column
     }
 
     header nav ul {
@@ -246,7 +246,7 @@ p.second {
 
     .foguete {
         position: static;
-        height: 200px;
+        height:300px;
         margin-bottom: 20px;
     }
 
@@ -288,6 +288,11 @@ p.second {
     .parallax-final {
         background-attachment: scroll;
         background-size: cover;
+    }
+
+    #logo {
+        max-width: 80%;
+        margin-bottom: 20px;
     }
 
 }
