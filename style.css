@@ -220,7 +220,7 @@ p.second {
     right: 10px;
 }
 
-/* Media Queries para tornar a página responsiva */
+/* Media Queries*/
 @media only screen and (max-width: 768px) {
     header .container {
         flex-direction: column;
@@ -284,6 +284,12 @@ p.second {
         background-attachment: scroll;
         background-size: cover;
     }
+
+    .parallax-final {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
