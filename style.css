@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+body {
+    background: linear-gradient(#006494, #13293d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 16px;
+    color: #ffffff;
+    font-size: 100%;
+    
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 100%;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 100%;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 60px 0;
+    color: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+#hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.foguete {
+    position: absolute;
+    bottom: 0;
+    transition: transform 5s linear;
+    right: 60%;
+    top: 40%;
+    height: 50%;
+}
+
+h2 {
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#about, #services, #contact {
+    margin-top: 50px;
+    
+}
+
+
+.parallax {
+    background: url('./img/starry_sky_0508.jpg')no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.829);
+}
+
+p.first {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#moon {
+    max-width: 35%;
+}
+
+.servicos-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.servicos-container img {
+    max-width: 50%; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.servicos-container .text-content {
+    max-width: 50%; 
+
+}
+
+.servicos-container .text-content h2 {
+    margin-top: 0; 
+    top: 110px;
+}
+
+.servicos-container .text-content p {
+    margin: 0; 
+}
+
+
+.parallax-final {
+    background: url('./img/Design\ sem\ nome\ \(3\).png')no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.829);
+}
+
+p.second {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #006494; 
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: #66b3fc; 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1f4364; 
+  }
+
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.card {
+    background: #00659449;
+    border: 1px solid #006494;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+}
+
+.card-title {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(247, 246, 246, 0);
+    color: #4074b986;
+    border: none;
+    font-size: 1rem;
+    padding: 5 10px;
+    cursor: pointer;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}

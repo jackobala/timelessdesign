@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Timeless</title>
+</head>
+<body>
+
+    <!--Cabeçalho-->
+    <header>
+        <div class="container">
+            <h1>Timeless</h1>
+            <p>Forward and beyond</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#services">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Seção Olá-->
+
+    <section id="hello">
+        <img src="./img/foguete sem fogo png.png" alt="foguete" class="foguete">
+        <h2>FAÇA SUA <br>EMPRESA<br> DECOLAR!</h2>
+    </section>
+
+    <!--Seção Sobre Nós-->
+    <section id="about" class="parallax">
+        <img id="moon" src="./img/ilustracao-vetorial-de-lua-cheia-ao-redor-das-estrelas.png" alt="moon">
+        <p class="first">Somos um time dedicado a levar seu negócio a novas alturas.</p>
+    </section>
+
+    <!--Seção Serviços-->
+    <section id="servicos" class="container servicos-container">
+        <img id="services" src="./img/ilustracoes-de-cenas-organicas-planas-em-dias-de-trabalho.png" alt="Serviços">
+        <div class="text-content">
+            <h2>Serviços</h2>
+        </div>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <h5 class="card-title">Estratégia Digital 📊</h5>
+                        <p class="card-text">Desenvolvemos estratégias digitais personalizadas para aumentar a visibilidade e o impacto da sua marca online. Utilizamos análise de dados e técnicas avançadas para alcançar seu público-alvo de maneira eficaz e inovadora.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <h5 class="card-title">Design 🧑🏾‍🎨</h5>
+                        <p class="card-text">Transformamos suas ideias em realidade com nosso serviço de design inovador. Criamos identidades visuais únicas, designs de produtos e interfaces de usuário que encantam e envolvem seu público-alvo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <h5 class="card-title">Comunicação 💬</h5>
+                        <p class="card-text">Aprimore a comunicação da sua empresa com nossos serviços personalizados. Desenvolvemos estratégias eficazes para garantir que sua mensagem seja clara, consistente e impactante, tanto interna quanto externamente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <h5 class="card-title">Social Media 📲</h5>
+                        <p class="card-text">Maximize sua presença online com nossa gestão de redes sociais. Criamos e implementamos campanhas criativas que aumentam seu alcance, engajamento e conversão, fortalecendo a conexão com seus seguidores.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <h5 class="card-title">Copywriting 📝</h5>
+                        <p class="card-text">Criamos conteúdo persuasivo e envolvente que atrai e retém seu público-alvo. Nossos serviços de copywriting são projetados para aumentar suas vendas, melhorar a comunicação da marca e fortalecer seu posicionamento no mercado.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+            <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </section>
+
+    <!--Seção Contato-->
+    <section id="contact" class="parallax-final">
+        <img src="./img/MODELO LOGO 2 png.png" alt="logo">
+        <p class="second">"O impossível é só o começo."</p>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
